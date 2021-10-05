@@ -26,6 +26,14 @@ Last updated:	8 Oct 2018
 /* 01. GENERAL	 						    	 */
 /*===============================================*/
 
+html {
+	max-width: 500px;
+	margin: auto;
+	background-image: -moz-linear-gradient( 90deg, rgb(203,45,62) 0%, rgb(239,71,58) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(203,45,62) 0%, rgb(239,71,58) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(203,45,62) 0%, rgb(239,71,58) 100%);
+}
+
 .md body {
 	color: #292929;
 	font-family: 'Montserrat', sans-serif;
