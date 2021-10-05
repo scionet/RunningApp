@@ -1,0 +1,36 @@
+{
+  "name": "etre",
+  "short_name": "etre",
+  "icons": [
+    {
+      "src": "img/favicon/android-icon-48x48.png",
+      "type": "image/png",
+      "size": "48x48"
+    },
+    {
+      "src": "img/favicon/android-icon-96x96.png",
+      "type": "image/png",
+      "size": "96x96"
+    },
+    {
+      "src": "img/favicon/android-icon-144x144.png",
+      "type": "image/png",
+      "size": "144x144"
+    },
+    {
+      "src": "img/favicon/android-icon-192x192.png",
+      "type": "image/png",
+      "size": "192x192"
+    }
+    
+  ],
+  "start_url": "/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#EF403A",
+  "description": "Marathon Training: 5K, 10K, 21K",
+  "dir": "ltr",
+  "lang": "en_US"
+}

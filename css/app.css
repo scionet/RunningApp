@@ -1,0 +1,508 @@
+/*==============================================
+[Main stylesheet app.css]
+
+Version:		1.0
+Created:		1 Oct 2018
+Last updated:	8 Oct 2018
+================================================*/
+/*
+[Table of Contents]
+
+01. GENERAL
+02. NAVBAR
+03. MENU PANEL
+04. PAGES
+05. WALKTHROUGH
+06. LOGIN & REGISTRE & REMEMBER PASSWORD
+07. HOMEPAGE
+08. WORKOUTS
+09. MUSCLES BUILDING
+10. WORKOUT/MUSCLE SINGLE
+11. SETTING PAGE
+*/
+
+
+/*===============================================*/
+/* 01. GENERAL	 						    	 */
+/*===============================================*/
+
+.md body {
+	color: #292929;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.arnold-page-content {
+	background: #f6f7fc;
+}
+
+img {
+	max-width: 100%;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.color-facebook {
+	background: #3b5999!important;
+}
+
+.color-twitter {
+	background: #55acee!important;
+}
+
+.color-googleplus {
+	background: #dd4b39!important;
+}
+
+.md .list input[type="date"], .md .list input[type="datetime-local"], .md .list input[type="email"], .md .list input[type="number"], .md .list input[type="password"], .md .list input[type="search"], .md .list input[type="tel"], .md .list input[type="text"], .md .list input[type="time"], .md .list input[type="url"], .md .list select {
+	font-size: 12px;
+}
+
+/*===============================================*/
+/* 02. NAVBAR									 */
+/*===============================================*/
+
+.navbar .title {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.navbar .icon-config {
+	color: #EF473A;
+}
+
+.md .navbar.navbar-white {
+	background: #FFFFFF!important;
+	color: #292929;
+}
+
+/*===============================================*/
+/* 03. MENU PANEL								 */
+/*===============================================*/
+
+.connected-user .item-title {
+	font-weight: 700;
+	font-size: 13.5px;
+}
+
+.md .connected-user .item-subtitle {
+	font-size: 12px;
+	color: #757575;
+}
+
+.md .connected-user .item-inner {
+	padding-top: 22px;
+}
+
+.menu-weight {
+	font-size: 12px;
+}
+
+.menu-weight span{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.list-menu a {
+	background: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #757575!important;
+	text-transform: uppercase;
+}
+
+.social-footer-menu a {
+	margin-right: 15px;
+}
+
+.social-footer-menu a i{
+	font-size: 16px;
+}
+
+/*===============================================*/
+/* 04. PAGES									 */
+/*===============================================*/
+
+.page-title {
+	font-weight: 700;
+	color: #eb4658;
+	font-size: 15px;
+}
+
+.page-subtitle {
+	font-weight: 700;
+	color: #292929;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.page-text {
+	color: #757575;
+	font-size: 12.5px;
+}
+
+/*===============================================*/
+/* 05. WALKTHROUGH								 */
+/*===============================================*/
+
+#walk {
+  background: #EF473A;
+}
+
+#walk .block{
+	margin-top: 35%;
+}
+
+.walk-cadre {
+	background: rgba(255,255,255,.8);
+	padding: 24px 24px 54px 24px;
+}
+
+.walk-title {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.walk-desc {
+	color: #757575;
+	font-size: 12px;
+}
+
+.md #walk .swiper-pagination.swiper-pagination-bullets {
+	bottom: 18px;
+}
+
+#walk .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+}
+
+#walk .swiper-pagination {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.walk-discover {
+	background: #EF473A;
+	display: block;
+	color: #FFFFFF!important;
+	font-size: 12px;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.walk-discover i{
+	font-size: 20px;
+}
+
+/*===============================================*/
+/* 06. LOGIN & REGISTRE & REMEMBER PASSWORD		 */
+/*===============================================*/
+
+#login-page {
+  background: #FFFFFF;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+	margin: 40px auto 40px auto;
+	display: block;
+}
+
+.login-card {
+	background: #FFFFFF;
+	padding: 50px 15px 50px 15px;
+}
+
+.login-card img {
+	display: block;
+	margin: 0px auto;
+}
+
+.login-card p {
+	text-align: center;
+	font-weight: 700;
+}
+
+.button.login-button {
+	background: #292929!important;
+	font-size: 12px;
+	text-transform: capitalize;
+}
+
+.button.login-facebook {
+	background: #3b5999!important;
+}
+
+.button.login-twitter {
+	background: #55acee!important;
+}
+
+.button.login-googleplus {
+	background: #dd4b39!important;
+}
+
+.forgot-password {
+	text-align: left;
+	font-size: 11px;
+}
+
+.sign-up {
+	color: #000000;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 35px;
+}
+
+.md .sign-up a{
+	color: #000000;
+	text-decoration: underline;
+}
+
+/*===============================================*/
+/* 07. HOMEPAGE									 */
+/*===============================================*/
+
+.header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: -moz-linear-gradient( 90deg, rgb(203,45,62) 0%, rgb(239,71,58) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(203,45,62) 0%, rgb(239,71,58) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(203,45,62) 0%, rgb(239,71,58) 100%);
+	text-align: center;
+	color: #FFFFFF;
+	position: relative;
+	height: 160px;
+	margin-bottom: 50px;
+}
+
+.header-title {
+	font-weight: 700;
+}
+
+.header-subtitle {
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.header .card {
+	color: #292929;
+	text-align: left;
+	position: absolute;
+	bottom: -40px;
+	left: 0px;
+	right: 0px;
+}
+
+.card-tiny-text2 {
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+.card-tiny-text,
+.card-large-text .card-tiny-text{
+	font-size: 11px;
+	color: #757575;
+	font-weight: 400;
+}
+
+.card-large-text {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.card-border-left {
+	border-left: 1px solid #efefef;
+}
+
+.card-border-right {
+	border-right: 1px solid #efefef;
+}
+
+.card-header-custom {
+	padding: 10px 16px 10px 16px;
+	border-bottom: 1px solid #efefef;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.card.card-no-margin {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.card.card-margin-top {
+	margin-top: 18px;
+}
+
+.card.card-margin-bottom {
+	margin-bottom: 18px;
+}
+
+.bg {
+	background: #aaa;
+    background-image: none;
+    background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	height: 75vw;
+}
+
+.my-lazy-img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*===============================================*/
+/* 08. LEVEL 1, 2, 3								 */
+/*===============================================*/
+
+.workout {
+	color: #FFFFFF;
+	padding: 20px 16px 0px 16px;
+	margin-bottom: 10px;
+}
+
+.workout-title {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.workout-subtitle {
+	font-size: 12px;
+}
+
+.workout-date {
+	font-size: 15px;
+	font-weight: 500;
+	color: yellow;
+}
+
+.workout a {
+	width: 120px;
+	margin-top: 15px;
+	font-size: 11px!important;
+}
+
+/*===============================================*/
+/* 09. MUSCLES BUILDING							 */
+/*===============================================*/
+
+.muscles {
+	text-align: center;
+	font-size: 12px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #efefef;
+}
+
+.muscles .row .col {
+	border-left: 1px solid #efefef;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding: 10px;
+}
+
+.muscles .row .col:first-child {
+	border-left: 0px;
+}
+
+.muscles-border-radius img{
+	border-radius: 100%;
+	border: 1px solid #efefef;
+	width: 100px;
+}
+
+.muscles a .muscle-name{
+	color: #292929;
+}
+
+.muscle-name {
+	font-weight: 700;
+}
+
+.muscle-nbr-exo {
+	color: #757575;
+}
+
+/*===============================================*/
+/* 10. WORKOUT/MUSCLE SINGLE					 */
+/*===============================================*/
+
+.description {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.description .description-color {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.description .color-perple{
+	background: #5a58d5;
+}
+
+.description .color-blue{
+	background: #5ac8fb;
+}
+
+.description .color-green{
+	background: #44da5d;
+}
+
+.description .color-red{
+	background: #fd5d39;
+}
+
+.description .description-but {
+	font-weight: 700;
+}
+
+.description .description-desc {
+	color: #757575;
+}
+
+/*===============================================*/
+/* 11. SETTING PAGE								 */
+/*===============================================*/
+
+.md .list.options {
+	font-size: 14px;
+}
+
+.options .material-icons{
+	color: #757575;
+}

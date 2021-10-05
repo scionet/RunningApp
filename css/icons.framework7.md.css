@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+       url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+@font-face {
+  font-family: 'Framework7 Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Framework7Icons-Regular.eot");
+  src: url("../fonts/Framework7Icons-Regular.woff2") format("woff2"),
+       url("../fonts/Framework7Icons-Regular.woff") format("woff"),
+       url("../fonts/Framework7Icons-Regular.ttf") format("truetype");
+}
+
+.f7-icons {
+  font-family: 'Framework7 Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  text-align: center;
+}
+
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 17/07/2018 08:45
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-size: 24px;
+	font-style: normal;
+	color:#757575;
+}
+
+.flaticon-001-skip-rope:before { content: "\f100"; }
+.flaticon-002-weight-1:before { content: "\f101"; }
+.flaticon-003-training:before { content: "\f102"; }
+.flaticon-004-flower:before { content: "\f103"; }
+.flaticon-005-hand-grip:before { content: "\f104"; }
+.flaticon-006-weight:before { content: "\f105"; }
+.flaticon-007-bracelet:before { content: "\f106"; }
+.flaticon-008-rings:before { content: "\f107"; }
+.flaticon-009-gym:before { content: "\f108"; }
+.flaticon-010-roller-skate:before { content: "\f109"; }
+.flaticon-011-cutlery:before { content: "\f10a"; }
+.flaticon-012-camping:before { content: "\f10b"; }
+.flaticon-013-diet:before { content: "\f10c"; }
+.flaticon-014-bar:before { content: "\f10d"; }
+.flaticon-015-blender:before { content: "\f10e"; }
+.flaticon-016-burn:before { content: "\f10f"; }
+.flaticon-017-bag:before { content: "\f110"; }
+.flaticon-018-no-smoking:before { content: "\f111"; }
+.flaticon-019-medal:before { content: "\f112"; }
+.flaticon-020-protein:before { content: "\f113"; }
+.flaticon-021-measuring-tape:before { content: "\f114"; }
+.flaticon-022-muscle:before { content: "\f115"; }
+.flaticon-023-boxing-glove:before { content: "\f116"; }
+.flaticon-024-isotonic:before { content: "\f117"; }
+.flaticon-025-fat:before { content: "\f118"; }
+.flaticon-026-apple:before { content: "\f119"; }
+.flaticon-027-wristwatch:before { content: "\f11a"; }
+.flaticon-028-calendar:before { content: "\f11b"; }
+.flaticon-029-ball:before { content: "\f11c"; }
+.flaticon-030-juice:before { content: "\f11d"; }
+.flaticon-031-vitamin:before { content: "\f11e"; }
+.flaticon-032-lungs:before { content: "\f11f"; }
+.flaticon-033-shirt-1:before { content: "\f120"; }
+.flaticon-034-shirt:before { content: "\f121"; }
+.flaticon-035-salad:before { content: "\f122"; }
+.flaticon-036-bike:before { content: "\f123"; }
+.flaticon-037-pool:before { content: "\f124"; }
+.flaticon-038-bicycle:before { content: "\f125"; }
+.flaticon-039-stopwatch:before { content: "\f126"; }
+.flaticon-040-treadmill:before { content: "\f127"; }
+.flaticon-041-trainers:before { content: "\f128"; }
+.flaticon-042-backpack:before { content: "\f129"; }
+.flaticon-043-whistle:before { content: "\f12a"; }
+.flaticon-044-sun:before { content: "\f12b"; }
+.flaticon-045-music:before { content: "\f12c"; }
+.flaticon-046-pillow:before { content: "\f12d"; }
+.flaticon-047-yoga-mat:before { content: "\f12e"; }
+.flaticon-048-water-bottle:before { content: "\f12f"; }
+.flaticon-049-scale:before { content: "\f130"; }
+.flaticon-050-heart-rate:before { content: "\f131"; }
